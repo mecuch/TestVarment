@@ -1,0 +1,72 @@
+('C:\\Users\\marma\\Desktop\\PYTHON '
+ 'REPOZYTORIUM\\TestVarment\\build\\TestVarment\\TestVarment.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\build\\TestVarment\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\build\\TestVarment\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\build\\TestVarment\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\build\\TestVarment\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\build\\TestVarment\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\build\\TestVarment\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('TestVarment_GUI',
+   'C:\\Users\\marma\\Desktop\\PYTHON '
+   'REPOZYTORIUM\\TestVarment\\TestVarment_GUI.py',
+   'PYSOURCE')],
+ 'python313.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
