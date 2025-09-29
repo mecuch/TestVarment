@@ -2,8 +2,6 @@ import os
 import sys
 import tkinter as tk
 from PIL import ImageTk, Image
-
-import styles
 from camera_prev import CameraPage
 from sound import SoundPage
 from internet import InternetPage
@@ -43,16 +41,6 @@ IMG = lambda *p: os.path.join(BASE_DIR, "images", *p)
 # --- Wczytywanie obrazów ---
 img_logo   = ImageTk.PhotoImage(Image.open(IMG("logo.png")).resize((1000, 100)))
 
-"""# === MENU (belka górna) ===
-menubar = tk.Menu(root)
-file_menu = tk.Menu(menubar, tearoff=0)
-file_menu2 = tk.Menu(menubar, tearoff=0)
-file_menu.add_command(label="Exit", command=root.quit)
-file_menu2.add_command(label="Credits", command=lambda: messagebox.showinfo("About this project", f"TestVarment v0.2 created by Marcin 'Mecuch' Pecuch, 2025", parent=root))
-menubar.add_cascade(label="Settings", menu=file_menu)
-menubar.add_cascade(label="About", menu=file_menu2)
-root.config(menu=menubar)"""
-
 # Siatka główna: menu u góry, content poniżej (rozciąga się)
 root.grid_columnconfigure(0, weight=1)
 root.grid_rowconfigure(0, weight=1)  # logo
@@ -82,7 +70,7 @@ content.grid_columnconfigure(0, weight=1)
 footer_frame = tk.Frame(root, padx=10, pady=6)
 footer_frame.grid(row=3, column=0, sticky="ew")
 footer_frame.grid_columnconfigure(0, weight=1)
-author = tk.Label(footer_frame, font=styles.FramesFooterFontStyle, text="TestVarment v0.2 by Marcin 'Mecuch' Pecuch 2025", fg="#666")
+author = tk.Label(footer_frame, font=FramesFooterFontStyle.font, text="TestVarment v0.2 by Marcin 'Mecuch' Pecuch 2025", fg="#666")
 author.grid(row=0, column=0, sticky="ew")
 
 # --- Poszczególne ekrany (ramki) ---

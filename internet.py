@@ -28,7 +28,7 @@ class InternetPage(tk.Frame):
 
         # nagłówek
         tk.Label(self, text="Internet Testing module",
-                 font=("Eras Bold ITC", 18, "bold")) \
+                 font=FramesTextStyle.big_font) \
             .grid(row=0, column=1, pady=(10, 20), sticky="n")
 
         # SSID

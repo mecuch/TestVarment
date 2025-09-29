@@ -8,10 +8,11 @@ class ButtonsMenuStyle:
 
 class FramesTextStyle:
         font = ("Eras Bold ITC", 12)
+        big_font = ("Eras Bold ITC", 18)
         fg_pswd = "#f7483b"
 
 class FramesButtonsStyle:
-        font = ("Eras Bold ITC", 10)
+        font = ("Eras Bold ITC", 13)
 
 class FramesFooterFontStyle:
-        font = ("Eras Bold ITC", 5)
+        font = ("Eras Bold ITC", 9)
